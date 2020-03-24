@@ -1,25 +1,20 @@
-# README
+# docker Nginx Puma
+## :memo:使い方
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Step 1: 
+docker-composeで複数のコンテナを起動します。
 
-Things you may want to cover:
+`docker-compose up -d`
 
-* Ruby version
 
-* System dependencies
+docker-composeでどのコンテナが起動しているかを確認します。
 
-* Configuration
+`docker-compose ps `
 
-* Database creation
+`docker-compose exec app rake db:migrate:status`
 
-* Database initialization
+`docker-compose exec db  mysql -u user_name -p -D mysql`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
-# spica
