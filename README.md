@@ -2,15 +2,21 @@
 ## :memo:使い方
 
 ### Step 1: 
+
+適当な作業ディレクトリを用意します。
+`mkdir spica`
+中に入って、git cloneして
+`cd spica`
+`git clone ***`
+
+docker-composeでビルドして
+`docker-compose build`
 docker-composeで複数のコンテナを起動します。
-
 `docker-compose up -d`
-
 
 docker-composeでどのコンテナが起動しているかを確認します。
 
 `docker-compose ps `
-
 
 `docker-compose exec app rails db:migrate:status`
 
@@ -24,7 +30,7 @@ DBに接続する場合
 `alias dcrails=‘docker-compose exec app rails`
 
 これをすると、ローカルで普通にrails触っている感覚で
-`dcrais generate ~ `
-のコマンドが使えます、
+`dcrais generate *** `
+って打てば、あまり違和感ないかな
 
 
