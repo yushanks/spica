@@ -11,7 +11,9 @@
 
 `cd webapp`
 
-`git clone ***`
+`git clone ***
+
+`cd spica`
 
 docker-composeでビルドして
 
