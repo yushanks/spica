@@ -9,6 +9,7 @@
 中に入って、git cloneし
 
 `cd spica`
+
 `git clone ***`
 
 docker-composeでビルドして
