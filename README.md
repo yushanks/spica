@@ -4,14 +4,18 @@
 ### Step 1: 
 
 適当な作業ディレクトリを用意します。
+
 `mkdir spica`
-中に入って、git cloneして
+中に入って、git cloneし
+
 `cd spica`
 `git clone ***`
 
 docker-composeでビルドして
+
 `docker-compose build`
 docker-composeで複数のコンテナを起動します。
+
 `docker-compose up -d`
 
 docker-composeでどのコンテナが起動しているかを確認します。
