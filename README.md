@@ -1,4 +1,4 @@
-# docker Nginx Puma
+# docker Nginx Puma Mysql
 ## :memo:使い方
 
 ### Step 1: 
