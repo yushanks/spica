@@ -5,11 +5,11 @@
 
 適当な作業ディレクトリを用意します。
 
-`mkdir spica`
+`mkdir webapp`
 
 中に入って、git cloneし
 
-`cd spica`
+`cd webapp`
 
 `git clone ***`
 
