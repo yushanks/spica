@@ -5,7 +5,8 @@
 
 適当な作業ディレクトリを用意します。
 
-`mkdir spica`
+`mkdir spica
+
 中に入って、git cloneし
 
 `cd spica`
