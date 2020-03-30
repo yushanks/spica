@@ -5,7 +5,7 @@
 
 適当な作業ディレクトリを用意します。
 
-`mkdir spica
+`mkdir spica`
 
 中に入って、git cloneし
 
@@ -42,7 +42,7 @@ DBに接続する場合
 
 これをすると、ローカルで普通にrails触っている感覚で
 
-`dcrais generate *** `
+`dcrails generate *** `
 
 って打てば、あまり違和感ないかな
 
