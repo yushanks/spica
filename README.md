@@ -38,7 +38,7 @@ DBに接続する場合
 
 設定方法
 
-`alias dcrails=‘docker-compose exec app rails`
+`alias dcrails=‘docker-compose exec app rails'`
 
 これをすると、ローカルで普通にrails触っている感覚で
 
