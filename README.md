@@ -42,6 +42,8 @@ DBに接続する場合
 
 `alias dcrails=‘docker-compose exec app rails'`
 
+`alias dcbundle=‘docker-compose exec app bundle'`
+
 これをすると、ローカルで普通にrails触っている感覚で
 
 `dcrails generate *** `
